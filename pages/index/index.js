@@ -8,14 +8,8 @@ Page({
       time: ''
     }
   },
-  onReady: () => {
-    // this.toast = this.selectComponent("#toast")
-  },
   onLoad: function () {
     this.toast = this.selectComponent("#toast")
-    // setTimeout(() => {
-    //   this.showPop()
-    // }, 3000)
   },
   showPop () {
     this.toast.showToast()
