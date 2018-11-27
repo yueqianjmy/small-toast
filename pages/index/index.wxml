@@ -1,0 +1,2 @@
+<button bindtap='showPop'>显示弹窗</button>
+<toast id="toast" params="{{params}}"></toast>

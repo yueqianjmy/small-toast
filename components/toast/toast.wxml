@@ -1,0 +1,10 @@
+<view class='toast' wx:if="{{isShow}}" bindtap='clickShow' animation="{{animation}}">
+  <view class='toast-in'>
+    <view class='toast_icon' hidden='{{icon === ""}}'>
+      <image src='{{icon}}'></image>
+    </view>
+    <view class='toast_content'>
+      {{params.context}}
+    </view>
+  </view>
+</view>
